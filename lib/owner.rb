@@ -1,5 +1,6 @@
 class Owner
   # code goes here
-  def initialize
+  def initialize(spec)
+    @species = spec
   end
 end
