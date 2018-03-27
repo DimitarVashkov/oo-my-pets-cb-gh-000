@@ -53,13 +53,9 @@ class Owner
   end
 
   def sell_pets
-    @pets.each do |arr|
-      puts arr
-      arr.collect {|x| x.mood = 'nervous'}
-    end
-    # @pets[:dogs].collect {|x| x.mood = 'nervous'}
-    # @pets[:cats].collect {|x| x.mood = 'nervous'}
-    # @pets[:fishes].collect {|x| x.mood = 'nervous'}
+    @pets[:dogs].collect {|x| x.mood = 'nervous'}
+    @pets[:cats].collect {|x| x.mood = 'nervous'}
+    @pets[:fishes].collect {|x| x.mood = 'nervous'}
     @pets = {}
   end
 
