@@ -12,15 +12,15 @@ class Owner
     "I am a #{@species}"
   end
 
-  def all
+  def self.all
     @@all
   end
 
-  def count
+  def self.count
     @@all.count
   end
 
-  def reset_all
+  def self.reset_all
     @@all = []
   end
 
