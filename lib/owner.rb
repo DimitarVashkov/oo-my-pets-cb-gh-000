@@ -7,6 +7,7 @@ class Owner
   def initialize(spec)
     @species = spec
     @@all << self
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
   def say_species
     "I am a #{@species}."
