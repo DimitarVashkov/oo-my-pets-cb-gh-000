@@ -56,6 +56,7 @@ class Owner
     @pets[:dogs].collect {|x| x.mood = 'nervous'}
     @pets[:cats].collect {|x| x.mood = 'nervous'}
     @pets[:fishes].collect {|x| x.mood = 'nervous'}
+    @pets = {}
   end
 
 
