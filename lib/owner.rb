@@ -25,4 +25,7 @@ class Owner
     @@all = []
   end
 
+  def buy_fish
+  end
+
 end
