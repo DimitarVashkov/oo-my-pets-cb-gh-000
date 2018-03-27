@@ -53,7 +53,7 @@ class Owner
   end
 
   def sell_pets
-    @pets.collect {|x| x.mood = 'happy'}
+    @pets.collect {|x| x.mood = 'nervous'}
     # @pets[:dogs].collect {|x| x.mood = 'nervous'}
     # @pets[:cats].collect {|x| x.mood = 'nervous'}
     # @pets[:fishes].collect {|x| x.mood = 'nervous'}
