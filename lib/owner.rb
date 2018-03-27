@@ -5,4 +5,7 @@ class Owner
   def initialize(spec)
     @species = spec
   end
+  def say_species
+    "I am a #{@species}"
+  end
 end
