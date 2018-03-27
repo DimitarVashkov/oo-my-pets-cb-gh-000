@@ -52,6 +52,8 @@ class Owner
     @pets[:fishes].collect {|x| x.mood = 'happy'}
   end
 
-
+  def list_pets
+    "I have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and 1 cat(s)."
+  end
 
 end
