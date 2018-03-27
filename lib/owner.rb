@@ -1,6 +1,6 @@
 class Owner
-  attr_reader :species, :pets
-  attr_accessor :name
+  attr_reader :species
+  attr_accessor :name, :pets
   # code goes here
   @@all = []
 
@@ -25,7 +25,8 @@ class Owner
     @@all = []
   end
 
-  def buy_fish
+  def buy_fish(name)
+    
   end
 
 end
