@@ -44,6 +44,13 @@ class Owner
     @pets[:dogs].collect {|x| x.mood = 'happy'}
   end
 
+  def play_with_cats
+    @pets[:cats].collect {|x| x.mood = 'happy'}
+  end
+
+  def feed_fish
+    @pets[:fishes].collect {|x| x.mood = 'happy'}
+  end
 
 
 end
